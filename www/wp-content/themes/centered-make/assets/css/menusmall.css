@@ -1,0 +1,18 @@
+.menu {
+	height: 55px !important;
+}
+
+.logo {
+	height: 55px !important;
+}
+
+ul#nav > li {
+	line-height: 55px !important;
+}
+
+.menu-mobile-button {
+	width: 55px;
+	height: 55px;
+	line-height: 55px;
+	font-size: 30px;
+}

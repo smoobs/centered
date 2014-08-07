@@ -1,0 +1,16 @@
+/*
+Theme Name:     Centered Yoga Studio Bespoke Theme
+Description:    Child of the Make theme, created by MrsTTH for Centered Yoga Studio
+Author:         MrsTTH
+Template:       make
+*/
+
+@import url("../make/style.css");
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: georgia, 'times new roman', serif;
+}
