@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.5.34, for Win32 (x86)
 --
--- Host: localhost    Database: rf
+-- Host: localhost    Database: c0wshedyoga
 -- ------------------------------------------------------
 -- Server version	5.5.34
 
@@ -38,7 +38,7 @@ CREATE TABLE `wp_links` (
   `link_rss` varchar(255) NOT NULL DEFAULT '',
   PRIMARY KEY (`link_id`),
   KEY `link_visible` (`link_visible`)
-) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

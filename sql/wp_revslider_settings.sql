@@ -16,37 +16,27 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `wp_users`
+-- Table structure for table `wp_revslider_settings`
 --
 
-DROP TABLE IF EXISTS `wp_users`;
+DROP TABLE IF EXISTS `wp_revslider_settings`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `wp_users` (
-  `ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
-  `user_login` varchar(60) NOT NULL DEFAULT '',
-  `user_pass` varchar(64) NOT NULL DEFAULT '',
-  `user_nicename` varchar(50) NOT NULL DEFAULT '',
-  `user_email` varchar(100) NOT NULL DEFAULT '',
-  `user_url` varchar(100) NOT NULL DEFAULT '',
-  `user_registered` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `user_activation_key` varchar(60) NOT NULL DEFAULT '',
-  `user_status` int(11) NOT NULL DEFAULT '0',
-  `display_name` varchar(250) NOT NULL DEFAULT '',
-  PRIMARY KEY (`ID`),
-  KEY `user_login_key` (`user_login`),
-  KEY `user_nicename` (`user_nicename`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+CREATE TABLE `wp_revslider_settings` (
+  `id` int(9) NOT NULL AUTO_INCREMENT,
+  `general` text NOT NULL,
+  `params` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `wp_users`
+-- Dumping data for table `wp_revslider_settings`
 --
 
-LOCK TABLES `wp_users` WRITE;
-/*!40000 ALTER TABLE `wp_users` DISABLE KEYS */;
-INSERT INTO `wp_users` VALUES (1,'butler','$P$BftEHkPjVIoqDuy2cMhc9g5iOQpe6p.','butler','sam@mrstth.com','','2014-07-23 17:51:50','',0,'Admin');
-/*!40000 ALTER TABLE `wp_users` ENABLE KEYS */;
+LOCK TABLES `wp_revslider_settings` WRITE;
+/*!40000 ALTER TABLE `wp_revslider_settings` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_revslider_settings` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

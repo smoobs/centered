@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.5.34, for Win32 (x86)
 --
--- Host: localhost    Database: rf
+-- Host: localhost    Database: c0wshedyoga
 -- ------------------------------------------------------
 -- Server version	5.5.34
 
@@ -30,7 +30,7 @@ CREATE TABLE `wp_terms` (
   PRIMARY KEY (`term_id`),
   UNIQUE KEY `slug` (`slug`),
   KEY `name` (`name`)
-) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -40,13 +40,7 @@ CREATE TABLE `wp_terms` (
 LOCK TABLES `wp_terms` WRITE;
 /*!40000 ALTER TABLE `wp_terms` DISABLE KEYS */;
 INSERT INTO `wp_terms` VALUES (1,'Uncategorized','uncategorized',0);
-INSERT INTO `wp_terms` VALUES (2,'Blogroll','blogroll',0);
-INSERT INTO `wp_terms` VALUES (3,'Top Main Navigation','top-main-navigation',0);
-INSERT INTO `wp_terms` VALUES (4,'Top Sub Navigation','top-sub-navigation',0);
-INSERT INTO `wp_terms` VALUES (5,'Bottom Main Navigation','bottom-main-navigation',0);
-INSERT INTO `wp_terms` VALUES (6,'Bottom Sub Navigation','bottom-sub-navigation',0);
-INSERT INTO `wp_terms` VALUES (7,'Hydropower','hydropower',0);
-INSERT INTO `wp_terms` VALUES (8,'Windpower','windpower',0);
+INSERT INTO `wp_terms` VALUES (2,'Menu 1','menu-1',0);
 /*!40000 ALTER TABLE `wp_terms` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

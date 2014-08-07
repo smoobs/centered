@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.5.34, for Win32 (x86)
 --
--- Host: localhost    Database: rf
+-- Host: localhost    Database: c0wshedyoga
 -- ------------------------------------------------------
 -- Server version	5.5.34
 
@@ -32,7 +32,7 @@ CREATE TABLE `wp_term_taxonomy` (
   PRIMARY KEY (`term_taxonomy_id`),
   UNIQUE KEY `term_id_taxonomy` (`term_id`,`taxonomy`),
   KEY `taxonomy` (`taxonomy`)
-) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -41,16 +41,8 @@ CREATE TABLE `wp_term_taxonomy` (
 
 LOCK TABLES `wp_term_taxonomy` WRITE;
 /*!40000 ALTER TABLE `wp_term_taxonomy` DISABLE KEYS */;
-INSERT INTO `wp_term_taxonomy` VALUES (1,1,'category','',0,19);
-INSERT INTO `wp_term_taxonomy` VALUES (2,2,'link_category','',0,0);
-INSERT INTO `wp_term_taxonomy` VALUES (3,3,'nav_menu','',0,35);
-INSERT INTO `wp_term_taxonomy` VALUES (4,4,'nav_menu','',0,3);
-INSERT INTO `wp_term_taxonomy` VALUES (5,5,'nav_menu','',0,38);
-INSERT INTO `wp_term_taxonomy` VALUES (6,6,'nav_menu','',0,3);
-INSERT INTO `wp_term_taxonomy` VALUES (7,7,'type','',0,1);
-INSERT INTO `wp_term_taxonomy` VALUES (8,8,'type','',0,0);
-INSERT INTO `wp_term_taxonomy` VALUES (9,7,'ptype','',0,1);
-INSERT INTO `wp_term_taxonomy` VALUES (10,8,'ptype','',0,1);
+INSERT INTO `wp_term_taxonomy` VALUES (1,1,'category','',0,0);
+INSERT INTO `wp_term_taxonomy` VALUES (2,2,'nav_menu','',0,5);
 /*!40000 ALTER TABLE `wp_term_taxonomy` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
