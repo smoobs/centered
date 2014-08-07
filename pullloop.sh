@@ -1,8 +1,6 @@
 #!/bin/bash
 
-USER=root
-DB=rf
-OUT=sql
+. ./config.sh
 
 eval $( ./find-mysql.sh )
 
@@ -14,7 +12,7 @@ while ssleep 10; do
     head=$( cat .git/refs/heads/master )
     git diff --numstat $prev..$head | awk -e '{ print $3 }' | grep '^sql/' | while read tbl; do
       echo "Loading $tbl"
-      cat "$tbl" | perl domhack.pl rf.fenkle rf.tthtesting.co.uk | $MYSQL -u$USER $DB
+      cat "$tbl" | perl domhack.pl $INDOM $OUTDOM | $MYSQL -u$USER $DB
     done
   fi
   cp .git/refs/heads/master "$flag"
