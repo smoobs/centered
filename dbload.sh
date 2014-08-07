@@ -1,7 +1,7 @@
 #!/bin/bash
 
 USER=root
-DB=rf
+DB=c0wshedyoga
 OUT=sql
 
 eval $( ./find-mysql.sh )
