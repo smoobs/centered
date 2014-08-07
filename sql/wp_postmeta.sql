@@ -69,7 +69,7 @@ INSERT INTO `wp_postmeta` VALUES (31,18,'container_width','default');
 INSERT INTO `wp_postmeta` VALUES (32,18,'background_type','image');
 INSERT INTO `wp_postmeta` VALUES (33,18,'background_color','#FFFFFF');
 INSERT INTO `wp_postmeta` VALUES (34,20,'_edit_last','1');
-INSERT INTO `wp_postmeta` VALUES (35,20,'_edit_lock','1407440682:1');
+INSERT INTO `wp_postmeta` VALUES (35,20,'_edit_lock','1407443146:1');
 INSERT INTO `wp_postmeta` VALUES (36,20,'slide_template','');
 INSERT INTO `wp_postmeta` VALUES (37,20,'container_width','default');
 INSERT INTO `wp_postmeta` VALUES (38,20,'background_type','color');
