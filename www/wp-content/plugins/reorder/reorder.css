@@ -1,0 +1,135 @@
+.reorder-highlight {
+	background: #f6f6f6!important;
+	-moz-box-shadow:inset 0 0 6px #dbdbdb;
+	-webkit-box-shadow:inset 0 0 6px #dbdbdb;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	-webkit-border-radius-topleft: 3px;
+	-webkit-border-radius-bottomleft: 3px;
+}
+
+#dragHelper td {
+	font-size: 11px!important;
+	margin: 0!important;
+}
+
+#dragHelper li {
+	margin: 0!important;
+}
+
+#dragHelper strong {
+	color: #21759B;
+	padding-right: 10px;
+}
+
+#reorder-list>ul ul, #dragHelper ul {
+	margin-left: 0;
+	padding: 0 0 0 18px!important;
+	background: url(indent.gif) 0 10px;
+}
+
+#reorder-list>ul {
+	padding: 10px 0;
+}
+
+
+#reorder-list li {
+	margin: 0;
+	background: #fff;
+	cursor: hand;
+	cursor: pointer;	
+}
+
+.reorder-id {
+	color: #b1b1b1;
+}
+
+/*post status*/
+#reorder-list li.draft strong, #reorder-list li.future strong, #reorder-list li.private strong {color: #b1b1b1}
+
+#reorder-list strong span, #dragHelper strong span {
+	background: #e0e0e0;
+	font-weight: normal;
+	color: #fff;
+	padding: 2px 6px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	margin-left: 10px;
+	font-size: 9px;
+}
+
+#reorder-list table {
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-radius-topleft: 5px;
+	-webkit-border-radius-bottomleft: 5px;
+}
+
+#reorder-list table:hover {background: #f8f8f8}
+#reorder-list table:hover strong {color: #d54e21}
+
+#dragHelper li, #dragHelper ul {
+	background: yellow;
+}
+
+#reorder-list>ul li strong, #order-posts-list li.draft li strong, #reorder-list>ul li.private li strong, #reorder-list>ul li.future li strong, #dragHelper strong 
+{
+	color: #21759B;
+	padding-right: 10px;
+	display: block;
+	height: 19px;
+	padding: 4px 0 0 5px;
+}
+
+.reorder-inner {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.reorder-inner td {
+	border: 0;
+	padding: 0;
+/*	padding: 4px 5px;*/
+}
+
+.reorder-inner td.reorder-id {
+	vertical-align: middle;
+}
+
+p#reorder-loading {
+	margin: 0;
+	margin-top: 5px;
+}
+
+span.reorder-loading {
+	font-size: 11px;
+}
+
+#taxonomy-filter select {
+	margin-right: 10px;
+}
+
+#taxonomy-filter {
+	padding: 0 0 10px 0;
+	font-size: 12px;
+}
+
+a.post-edit-link {
+	padding-top: 3px;
+	display: block;
+	height: 20px;
+	padding-left: 8px;
+}
+
+a.post-edit-link:hover {
+	background: #f8f888;
+}
+
+/*
+.expand-collapse {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 0;
+	background: url(expand-collapse.gif) no-repeat center center;
+}		*/

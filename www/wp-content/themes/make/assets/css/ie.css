@@ -1,0 +1,19 @@
+.portfolio-box:hover div {
+	background-color: #000;
+}
+
+.post-info-icon:hover span {
+	display: none;
+}
+
+.post-info-icon-2:hover span {
+	display: none;
+}
+
+.media-post iframe {
+	padding-bottom: 10px;
+}
+
+.search-field input[type="text"] {
+	line-height: 30px;
+}

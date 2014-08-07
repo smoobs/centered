@@ -1,0 +1,27 @@
+.general_color, .button-style-1 a, .news-content h1 a:hover, .news-content h2 a:hover, .news-content h3 a:hover, .news-content h4 a:hover, .news-content h5 a:hover, .news-content h6 a:hover, .widget ul li a:hover, .post-tags a:hover, .post-content h1 a:hover, .post-content h2 a:hover, .post-content h3 a:hover, .post-content h5 a:hover, .post-content h5 a:hover, .post-content h6 a:hover, .tagcloud a:hover {
+	color: #4A5B7D !important;
+}
+
+.general_border, .text-edit blockquote, .tagcloud a:hover, #post-author:hover img, .post-list-comments li > div:hover > .author-comment-avatar {
+	border-color: #4A5B7D !important;
+}
+
+.general_bg, .team-member .team-social:hover .team-button, .portfolio-categories ul li a:hover, .portfolio-categories ul li .current, #post-comment-form input[type="submit"], .callout-box, .media-post .rslides_nav:hover, .portfolio-media .rslides_nav:hover, .button-style-2:hover, #post-author:hover img, .post-list-comments li > div:hover > .author-comment-avatar, .callout-box-button:hover, #loaderMask, #backtop:hover {
+	background-color: #4A5B7D !important;
+}
+
+.active-tab a {
+	border-top: 3px solid #4A5B7D !important;
+}
+
+ul#nav li a {
+	color: #fff;
+}
+
+ul#nav li a:hover{
+	color: #848484;
+}
+
+ul#nav #current_menu_item a {
+	color: #848484 !important;
+}

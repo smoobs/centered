@@ -1,0 +1,333 @@
+#ls-screen-options-form {
+
+	input[type="number"] {
+		width: 50px;
+	}
+
+	button {
+		margin-left: 10px;
+	}
+}
+
+.ls-version-number {
+	position: absolute;
+	top: 30px;
+	right: 0px;
+	line-height: 12px;
+	color: red;
+}
+
+// All boxes on the listing page
+#ls-add-slider-template {
+	display: none;
+	width: 330px;
+	min-height: 0;
+	text-align: center;
+	box-shadow: 0px 0px 10px #666;
+	&:before { box-shadow: 0px 0px 10px #666; }
+	h3.header { text-align: center;}
+	input { width: 200px; margin-right: 10px; }
+}
+
+.ls-add-slider-overlay {
+	background: black;
+	opacity: 0.2;
+}
+
+#ls-list-page {
+
+	// All boxes
+	.ls-box {
+		margin-bottom: 30px;
+	}
+}
+
+// Sliders list
+.ls-sliders-list {
+
+	position: relative;
+	margin-bottom: 0px !important;
+	color: #555;
+
+	tr.faded {
+		opacity: 0.5;
+	}
+
+	td {
+		text-align: center;
+		padding: 3px !important;
+
+		input {
+			margin-left: 6px;
+		}
+		&.name { text-align: left; }
+	}
+
+	td.preview {
+		width: 160px;
+		float: none;
+		text-align: center;
+
+		div {
+			width: 150px;
+			height: 36px;
+			position: relative;
+			margin: 0 auto;
+			overflow: hidden;
+			border-radius: 5px;
+		}
+
+		img {
+			width: 150px;
+			position: absolute;
+			top: -50%;
+			left: 50%;
+			margin-top: -20px;
+			margin-left: -75px;
+		}
+	}
+
+	span {
+		font-size: 19px;
+		line-height: 19px;
+		-webkit-font-smoothing: none;
+
+		&.dashicons-backup {
+			-webkit-font-smoothing: antialiased;
+			&:hover { color: orange; }
+		}
+
+		&.dashicons-trash:hover {
+			color: #E14D43;
+		}
+	}
+}
+
+div.ls-bulk-actions {
+	position: absolute;
+	width: 260px;
+	height: 30px;
+	left: 0;
+	bottom: -45px;
+
+	button {
+		margin-left: 10px !important;
+	}
+}
+
+.ls-pagination {
+	width: 300px;
+	height: 40px;
+	float: right;
+	clear: none !important;
+	margin: 10px 0 0 0;
+	text-align: right;
+	form {
+		display: inline-block;
+	}
+}
+
+.ls-export-wrapper {
+	margin-top: 65px;
+}
+
+.ls-import-export-box {
+
+	form.ls-import-box td {
+		border-bottom: 1px solid #e3e3e3 !important;
+	}
+
+	td:first-child {
+		width: 130px;
+		text-align: right;
+	}
+
+	input, select {
+		width: 90%;
+	}
+
+	select {
+		// width: 236px;
+	}
+
+	button {
+		float: right;
+	}
+}
+
+.ls-news {
+
+	.ls-version {
+		float: right;
+		font-weight: normal;
+	}
+
+	iframe {
+		width: 100%;
+		height: 350px;
+		border: 0;
+	}
+}
+
+.ls-auto-update {
+
+	tbody td {
+		padding: 10px 0 !important;
+		text-align: center !important;
+	}
+
+	input {
+		margin: 0 2px 0 5px;
+
+		&.key {
+			width: 280px;
+			margin-right: 25px;
+			font: normal normal normal 13px/15px Arial, sans-serif;
+		}
+	}
+
+	a {
+		margin-left: 15px !important;
+	}
+
+	.footer span {
+		margin-left: 10px;
+		line-height: 28px;
+	}
+}
+
+.ls-global-settings {
+
+	.inner {
+		padding: 0;
+	}
+
+	figure {
+		display: inline;
+		margin: 0;
+		color: #999;
+		font-weight: normal;
+		-webkit-transition: color 300ms;
+		-moz-transition: color 300ms;
+		-o-transition: color 300ms;
+		-ms-transition: color 300ms;
+		transition: color 300ms;
+
+		span  {
+			margin: 0 5px;
+			color: #999;
+		}
+	}
+
+
+
+	&:hover figure {
+		color: red;
+	}
+
+	.ls-icon {
+		margin-top: 6px;
+	}
+
+	thead {
+		color: #444;
+	}
+
+	tbody td:first-child {
+		width: 230px;
+		text-align: right;
+	}
+
+	.ls-checkbox {
+		margin: 0 10px;
+	}
+
+	td.desc {
+		font-size: 12px;
+	}
+}
+
+
+// Goggle Fonts search bar
+.ls-font-search {
+
+	.right {
+		float: right;
+	}
+
+	input {
+		width: 180px;
+		margin: 0 10px;
+		font-size: 12px;
+	}
+}
+
+// Google Fonts pointer
+.ls-font-search  .ls-pointer {
+	display: none;
+	opacity: 0;
+	position: absolute;
+	right: 30px;
+	width: 280px;
+	margin-top: 40px;
+	box-shadow: 0px 0px 10px #666;
+	&:before { box-shadow: 0px 0px 10px #666; }
+
+	.fonts h4 {
+		padding-top: 10px;
+		font: $fontHelvetica;
+		font-weight: normal;
+		font-size: 18px;
+		text-align: center;
+	}
+
+	.variants {
+		display: none;
+		.ls-checkbox { margin: 0 10px -3px 10px; }
+	}
+
+	.inner div { text-align: center; }
+}
+
+// Google Fonts list
+ul.ls-font-list {
+	margin: 0;
+	padding: 0;
+
+	.ls-notice {
+		margin: 5px 0;
+		text-align: center;
+		font: {
+			family: $fontHelvetica;
+			size: 14px;
+		}
+	}
+
+	input {
+		width: 500px;
+		&[readonly] {
+			background-color: white;
+		}
+	}
+
+	.ls-checkbox {
+		margin: 0 10px -3px 10px;
+	}
+
+	a.remove {
+		display: inline-block;
+		width: 10px;
+		height: 10px;
+		border: 1px solid #ad1714;
+		margin: 0 10px;
+		font: normal normal normal 10px/10px Arial, serif;
+		color: #FFF;
+		background-color: #db1b17;
+		border-radius: 6px;
+		text-align: center;
+		-webkit-box-shadow: inset 1px 1px 0px rgba(255,255,255,0.2),1px 1px 0px #fff;
+		-moz-box-shadow: inset 1px 1px 0px rgba(255,255,255,0.2),1px 1px 0px #fff;
+		box-shadow: inset 1px 1px 0px rgba(255,255,255,0.2),1px 1px 0px #fff;
+	}
+}
+
