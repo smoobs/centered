@@ -1,10 +1,12 @@
 #!/bin/bash
 
 USER=root
-DB=rf
+DB=c0wshedyoga
 OUT=sql
 
 eval $( ./find-mysql.sh )
+
+mkdir -p "$OUT"
 
 echo 'SHOW TABLES' | $MYSQL -u$USER $DB | tail -n +2 | \
   while read tbl; do 
