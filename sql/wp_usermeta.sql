@@ -30,7 +30,7 @@ CREATE TABLE `wp_usermeta` (
   PRIMARY KEY (`umeta_id`),
   KEY `user_id` (`user_id`),
   KEY `meta_key` (`meta_key`)
-) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -52,13 +52,14 @@ INSERT INTO `wp_usermeta` VALUES (10,1,'wp_capabilities','a:1:{s:13:\"administra
 INSERT INTO `wp_usermeta` VALUES (11,1,'wp_user_level','10');
 INSERT INTO `wp_usermeta` VALUES (12,1,'dismissed_wp_pointers','wp350_media,wp360_revisions,wp360_locks,wp390_widgets');
 INSERT INTO `wp_usermeta` VALUES (13,1,'show_welcome_panel','0');
-INSERT INTO `wp_usermeta` VALUES (14,1,'wp_dashboard_quick_press_last_post_id','3');
+INSERT INTO `wp_usermeta` VALUES (14,1,'wp_dashboard_quick_press_last_post_id','56');
 INSERT INTO `wp_usermeta` VALUES (15,1,'closedpostboxes_dashboard','a:0:{}');
 INSERT INTO `wp_usermeta` VALUES (16,1,'metaboxhidden_dashboard','a:3:{i:0;s:18:\"dashboard_activity\";i:1;s:21:\"dashboard_quick_press\";i:2;s:17:\"dashboard_primary\";}');
 INSERT INTO `wp_usermeta` VALUES (17,1,'wp_user-settings','editor=html&libraryContent=browse&urlbutton=none&imgsize=full&align=right');
 INSERT INTO `wp_usermeta` VALUES (18,1,'wp_user-settings-time','1407438142');
 INSERT INTO `wp_usermeta` VALUES (19,1,'managenav-menuscolumnshidden','a:4:{i:0;s:11:\"link-target\";i:1;s:11:\"css-classes\";i:2;s:3:\"xfn\";i:3;s:11:\"description\";}');
 INSERT INTO `wp_usermeta` VALUES (20,1,'metaboxhidden_nav-menus','a:8:{i:0;s:8:\"add-post\";i:1;s:8:\"add-team\";i:2;s:11:\"add-clients\";i:3;s:13:\"add-portfolio\";i:4;s:11:\"add-onepage\";i:5;s:12:\"add-post_tag\";i:6;s:15:\"add-post_format\";i:7;s:22:\"add-portfolio-category\";}');
+INSERT INTO `wp_usermeta` VALUES (21,1,'nav_menu_recently_edited','2');
 /*!40000 ALTER TABLE `wp_usermeta` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
