@@ -52,7 +52,7 @@ INSERT INTO `wp_usermeta` VALUES (10,1,'wp_capabilities','a:1:{s:13:\"administra
 INSERT INTO `wp_usermeta` VALUES (11,1,'wp_user_level','10');
 INSERT INTO `wp_usermeta` VALUES (12,1,'dismissed_wp_pointers','wp350_media,wp360_revisions,wp360_locks,wp390_widgets');
 INSERT INTO `wp_usermeta` VALUES (13,1,'show_welcome_panel','0');
-INSERT INTO `wp_usermeta` VALUES (14,1,'wp_dashboard_quick_press_last_post_id','56');
+INSERT INTO `wp_usermeta` VALUES (14,1,'wp_dashboard_quick_press_last_post_id','57');
 INSERT INTO `wp_usermeta` VALUES (15,1,'closedpostboxes_dashboard','a:0:{}');
 INSERT INTO `wp_usermeta` VALUES (16,1,'metaboxhidden_dashboard','a:3:{i:0;s:18:\"dashboard_activity\";i:1;s:21:\"dashboard_quick_press\";i:2;s:17:\"dashboard_primary\";}');
 INSERT INTO `wp_usermeta` VALUES (17,1,'wp_user-settings','editor=html&libraryContent=browse&urlbutton=none&imgsize=full&align=right');
