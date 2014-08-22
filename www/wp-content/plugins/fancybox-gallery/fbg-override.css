@@ -1,0 +1,25 @@
+/*
+ * Overrides for the default styles
+ */
+
+/* override table styling for the caption */
+div#fancy_title table, 
+div#fancy_title td,
+div#fancy_title th,
+div#fancy_title tr,
+div#fancy_title tbody {
+	margin: 0 auto;
+	padding: 0;
+	border: none;
+	border-collapse: collapse;
+	line-height: 1;
+	vertical-align: middle;
+	text-align: center;
+	background-color: transparent;
+}
+
+/* And for the prev/next links */
+div#fancy_inner a#fancy_left:hover, div#fancy_inner a#fancy_right:hover {
+	background-color: transparent;
+}
+
