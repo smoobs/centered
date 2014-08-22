@@ -37,11 +37,11 @@ CREATE TABLE `wp_term_relationships` (
 
 LOCK TABLES `wp_term_relationships` WRITE;
 /*!40000 ALTER TABLE `wp_term_relationships` DISABLE KEYS */;
-INSERT INTO `wp_term_relationships` VALUES (37,2,0);
 INSERT INTO `wp_term_relationships` VALUES (38,2,0);
 INSERT INTO `wp_term_relationships` VALUES (39,2,0);
 INSERT INTO `wp_term_relationships` VALUES (40,2,0);
 INSERT INTO `wp_term_relationships` VALUES (41,2,0);
+INSERT INTO `wp_term_relationships` VALUES (78,2,0);
 /*!40000 ALTER TABLE `wp_term_relationships` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
