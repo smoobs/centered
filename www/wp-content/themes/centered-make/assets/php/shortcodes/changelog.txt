@@ -1,0 +1,18 @@
+*** ZillaShortcodes Changelog ***
+
+13 Dec 2012 - Version 1.1
+
+	* shortcodes.css 
+		- fix width on 4/5 column
+		- update tabs selectors for new UI in WP 3.5
+	* zilla-shortcodes.php
+		- update version number
+	* shortcodes.php
+		- update tabs to work with STATIC ids that will be consistant across pages
+	* zilla-shortcodes-lib.js - fix tabs JS call
+
+8 May 2012 - Version 1.0
+
+	* Initial Release
+
+	
