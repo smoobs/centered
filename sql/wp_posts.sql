@@ -51,7 +51,7 @@ CREATE TABLE `wp_posts` (
   KEY `type_status_date` (`post_type`,`post_status`,`post_date`,`ID`),
   KEY `post_parent` (`post_parent`),
   KEY `post_author` (`post_author`)
-) ENGINE=InnoDB AUTO_INCREMENT=168 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=169 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -119,7 +119,7 @@ INSERT INTO `wp_posts` VALUES (69,1,'2014-08-21 15:28:28','0000-00-00 00:00:00',
 INSERT INTO `wp_posts` VALUES (70,1,'2014-08-21 15:29:55','2014-08-21 15:29:55','<div class=\"spacer\"></div>','Image - Studio','','publish','closed','closed','','image-studio','','','2014-08-22 14:03:38','2014-08-22 14:03:38','',0,'http://centered.co.uk/?post_type=onepage&#038;p=70',3,'onepage','',0);
 INSERT INTO `wp_posts` VALUES (71,1,'2014-08-21 15:29:55','2014-08-21 15:29:55','','Image - Studio','','inherit','closed','closed','','70-revision-v1','','','2014-08-21 15:29:55','2014-08-21 15:29:55','',70,'http://centered.co.uk/70-revision-v1/',0,'revision','',0);
 INSERT INTO `wp_posts` VALUES (72,1,'2014-08-21 15:30:20','2014-08-21 15:30:20','<div class=\"spacer\"></div>','Image - Studio','','inherit','closed','closed','','70-revision-v1','','','2014-08-21 15:30:20','2014-08-21 15:30:20','',70,'http://centered.co.uk/70-revision-v1/',0,'revision','',0);
-INSERT INTO `wp_posts` VALUES (73,1,'2014-08-21 15:42:25','2014-08-21 15:42:25','<div class=\"spacer small\"></div>','Image - Classes','','publish','closed','closed','','image-classes','','','2014-08-22 10:30:29','2014-08-22 10:30:29','',0,'http://centered.co.uk/?post_type=onepage&#038;p=73',5,'onepage','',0);
+INSERT INTO `wp_posts` VALUES (73,1,'2014-08-21 15:42:25','2014-08-21 15:42:25','<div class=\"spacer small\"></div>','Image - Classes','','publish','closed','closed','','image-classes','','','2014-08-22 16:35:43','2014-08-22 16:35:43','',0,'http://centered.co.uk/?post_type=onepage&#038;p=73',5,'onepage','',0);
 INSERT INTO `wp_posts` VALUES (75,1,'2014-08-21 15:42:25','2014-08-21 15:42:25','<div class=\"spacer small\"></div>','Image - Classes','','inherit','closed','closed','','73-revision-v1','','','2014-08-21 15:42:25','2014-08-21 15:42:25','',73,'http://centered.co.uk/73-revision-v1/',0,'revision','',0);
 INSERT INTO `wp_posts` VALUES (78,1,'2014-08-21 17:30:26','2014-08-21 17:30:26','','Iyengar Yoga','','publish','closed','closed','','iyengar-yoga','','','2014-08-21 17:30:26','2014-08-21 17:30:26','',0,'http://centered.co.uk/?p=78',2,'nav_menu_item','',0);
 INSERT INTO `wp_posts` VALUES (79,1,'2014-08-22 09:09:01','2014-08-22 09:09:01','<div class=\"right-gallery\"></div>\nCentered Yoga Studio is located on the outskirts of Stroud in the picturesque Slad Valley. It is housed in a renovated 17th Century cowshed within the walled garden and grounds of a Georgian manor house.\n\nThe clean, bright and heated practice room is fully equipped with yoga mats and all the props necessary for the <a href=\"#iyengar-yoga\">Iyengar method</a>.\n\nWith separate male and female changing rooms and WC, the studio makes a comfortable, dedicated setting for the practice of Iyengar Yoga.','The Studio','','inherit','closed','closed','','10-autosave-v1','','','2014-08-22 09:09:01','2014-08-22 09:09:01','',10,'http://centered.co.uk/10-autosave-v1/',0,'revision','',0);
@@ -192,6 +192,7 @@ INSERT INTO `wp_posts` VALUES (163,1,'2014-08-22 15:14:58','2014-08-22 15:14:58'
 INSERT INTO `wp_posts` VALUES (164,1,'2014-08-22 15:36:32','2014-08-22 15:36:32','','centered-yoga-slad-valley4','','inherit','closed','closed','','centered-yoga-slad-valley4','','','2014-08-22 15:36:32','2014-08-22 15:36:32','',0,'http://centered.co.uk/wp-content/uploads/2014/08/centered-yoga-slad-valley4.jpg',0,'attachment','image/jpeg',0);
 INSERT INTO `wp_posts` VALUES (165,1,'2014-08-22 15:56:17','2014-08-22 15:56:17','','centered-yoga-slad-valley5','','inherit','closed','closed','','centered-yoga-slad-valley5','','','2014-08-22 15:56:17','2014-08-22 15:56:17','',0,'http://centered.co.uk/wp-content/uploads/2014/08/centered-yoga-slad-valley5.jpg',0,'attachment','image/jpeg',0);
 INSERT INTO `wp_posts` VALUES (167,1,'2014-08-22 16:23:35','2014-08-22 16:23:35','','garden-studio','','inherit','closed','closed','','garden-studio-2','','','2014-08-22 16:23:35','2014-08-22 16:23:35','',0,'http://centered.co.uk/wp-content/uploads/2014/08/garden-studio1.jpg',0,'attachment','image/jpeg',0);
+INSERT INTO `wp_posts` VALUES (168,1,'2014-08-22 16:35:30','2014-08-22 16:35:30','','classes','','inherit','closed','closed','','classes-3','','','2014-08-22 16:35:30','2014-08-22 16:35:30','',0,'http://centered.co.uk/wp-content/uploads/2014/08/classes1.jpg',0,'attachment','image/jpeg',0);
 /*!40000 ALTER TABLE `wp_posts` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
