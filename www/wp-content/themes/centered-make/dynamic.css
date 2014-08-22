@@ -316,180 +316,8 @@ body {
     font-family: 'open sans', helvetica, verdana, sans-serif;
 }
 
-.fancy_wrap div#fancy_outer {
-    z-index: 1000;
-}
-
-.spacer {
-height: 805px;
-}
-
-.container .sections-content {
-	max-width: 1000px!important;
-	margin: 0 auto;
-	font-size: 18px;
-	padding-bottom: 2em;
-}
-
-.sections-content a {
-	color: #c15018;
-}
-
-.sections-content a:hover {
-	color: #e7801b;
-}
-
-.sections-content .title {
-	text-align: left;
-}
-
-.sections-content .head-line {
-	display: none;
-}
-
-.sections-content #gallery-1 img, .sections-content #gallery-2 img, .sections-content #gallery-3 img {
-    border: 1px solid #fff;
-}
-
-.sections-content #gallery-1 img:hover, .sections-content #gallery-2 img:hover, .sections-content #gallery-3 img:hover {
-    border: 1px solid #ccc;
-}
-
-.right-gallery {
-	float: right; 
-	width: 50%;
-	text-align: center;
-}
-
-.right-subnav {
-float: right; 
-width: 25%;
-text-align: left;
-padding: 0;
-margin: 0 0 0 20px;
-}
-
-.right-subnav ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-}
-
-.right-subnav li {
-border-bottom: 1px solid #ddd;
-}
-
-.gallery-4wide {
-width: 68%;
-}
-
-#classes .sections-content p {
-width: 68%;
-}
-
-.wp-caption-text {
-    font-size: 16px;
-}
-
-#gallery-1 img {
-    border: 1px solid #fff;
-}
-
-#desktop-menu .menu > li > a, .container_logo a {
-color: #728906;
-font-family: Georgia, "Times New Roman", Times, serif;
-font-size: 24px; !important;
-}
-
-/* this line fixes the header nav items color */
-#desktop-menu .menu > li.menu-item-type-custom > a, .container_logo a {
-color: #728906;
-}
-
-#desktop-menu .menu > #current_menu_item > a, #desktop-menu .menu > .current-menu-item > a, #desktop-menu .menu > li:hover > a {
-color: #c15018;
-}
-
-#main_menu {
-border-color: #172a31 !important;
-background-color:  !important;
-}
-
-#mobile-menu {
-background-color:  !important;
-}
-
-#mobile-menu a {
-
-}
-
-#mobile-menu ul li a {
-border-bottom-color:  !important;
-}
-
-h1 {
-font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-h2 {
-font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-.home .title h2 {
-    padding-top: 1em;
-}
-
-h3 {
-font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-h4 {
-font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-h5 {
-font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-h6 {
-font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-#footer {
-background-color:  !important;
-}
-
-.copyright {
-
-}
-/* END dynamic_css */
-/* BEGIN dynamic_css */
-.general_color, .button-style-1 a, .news-content h1 a:hover, .news-content h2 a:hover, .news-content h3 a:hover, .news-content h4 a:hover, .news-content h5 a:hover, .news-content h6 a:hover, .widget ul li a:hover, .post-tags a:hover, .post-content h1 a:hover, .post-content h2 a:hover, .post-content h3 a:hover, .post-content h5 a:hover, .post-content h5 a:hover, .post-content h6 a:hover, .tagcloud a:hover, .post-date a, .comment-author a, .reply a, .comment-reply-title a  {
-color:#172a31 !important;
-}
-
-.general_bg, .team-member .team-social:hover .team-button, .portfolio-categories ul li a:hover, .portfolio-categories ul li .current, #post-comment-form input[type="submit"], .callout-box, .media-post .rslides_nav:hover, .portfolio-media .rslides_nav:hover, .button-style-2:hover, #post-author:hover img, .post-list-comments li > div:hover > .author-comment-avatar, .callout-box-button:hover, .toggle-active, #backtop:hover, #blog-navigation a:hover, #blog-navigation .current, .button-style-3, #comments-list li > .comment-body:hover > .comment-author img, #nav .sub-menu li a:hover {
-background-color:#172a31 !important;
-}
-.general_border, .text-edit blockquote, .tagcloud a:hover, #post-author:hover img, #comments-list li > .comment-body:hover > .comment-author img, .widget-title, .line-header, #reply-title{
-border-color:#172a31 !important;
-}
-
-.active-tab a {
-	border-top: 3px solid #172a31 !important;
-}
-
-.logo .img-responsive {
-margin: 20px 0 10px;
-}
-
-.homelogo {
-	margin: 180px auto 200px;
-}
-
-body {
-    color: #4a4a4a;
-    font-family: 'open sans', helvetica, verdana, sans-serif;
+ul#nav > li, #desktop-menu .menu li {
+line-height: 76px;
 }
 
 .fancy_wrap div#fancy_outer {
@@ -668,180 +496,8 @@ body {
     font-family: 'open sans', helvetica, verdana, sans-serif;
 }
 
-.fancy_wrap div#fancy_outer {
-    z-index: 1000;
-}
-
-.spacer {
-height: 805px;
-}
-
-.container .sections-content {
-	max-width: 1000px!important;
-	margin: 0 auto;
-	font-size: 18px;
-	padding-bottom: 2em;
-}
-
-.sections-content a {
-	color: #c15018;
-}
-
-.sections-content a:hover {
-	color: #e7801b;
-}
-
-.sections-content .title {
-	text-align: left;
-}
-
-.sections-content .head-line {
-	display: none;
-}
-
-.sections-content #gallery-1 img, .sections-content #gallery-2 img, .sections-content #gallery-3 img {
-    border: 1px solid #fff;
-}
-
-.sections-content #gallery-1 img:hover, .sections-content #gallery-2 img:hover, .sections-content #gallery-3 img:hover {
-    border: 1px solid #ccc;
-}
-
-.right-gallery {
-	float: right; 
-	width: 50%;
-	text-align: center;
-}
-
-.right-subnav {
-float: right; 
-width: 25%;
-text-align: left;
-padding: 0;
-margin: 0 0 0 20px;
-}
-
-.right-subnav ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-}
-
-.right-subnav li {
-border-bottom: 1px solid #ddd;
-}
-
-.gallery-4wide {
-width: 68%;
-}
-
-#classes .sections-content p {
-width: 68%;
-}
-
-.wp-caption-text {
-    font-size: 16px;
-}
-
-#gallery-1 img {
-    border: 1px solid #fff;
-}
-
-#desktop-menu .menu > li > a, .container_logo a {
-color: #728906;
-font-family: Georgia, "Times New Roman", Times, serif;
-font-size: 24px; !important;
-}
-
-/* this line fixes the header nav items color */
-#desktop-menu .menu > li.menu-item-type-custom > a, .container_logo a {
-color: #728906;
-}
-
-#desktop-menu .menu > #current_menu_item > a, #desktop-menu .menu > .current-menu-item > a, #desktop-menu .menu > li:hover > a {
-color: #c15018;
-}
-
-#main_menu {
-border-color: #172a31 !important;
-background-color:  !important;
-}
-
-#mobile-menu {
-background-color:  !important;
-}
-
-#mobile-menu a {
-
-}
-
-#mobile-menu ul li a {
-border-bottom-color:  !important;
-}
-
-h1 {
-font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-h2 {
-font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-.home .title h2 {
-    padding-top: 1em;
-}
-
-h3 {
-font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-h4 {
-font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-h5 {
-font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-h6 {
-font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-#footer {
-background-color:  !important;
-}
-
-.copyright {
-
-}
-/* END dynamic_css */
-/* BEGIN dynamic_css */
-.general_color, .button-style-1 a, .news-content h1 a:hover, .news-content h2 a:hover, .news-content h3 a:hover, .news-content h4 a:hover, .news-content h5 a:hover, .news-content h6 a:hover, .widget ul li a:hover, .post-tags a:hover, .post-content h1 a:hover, .post-content h2 a:hover, .post-content h3 a:hover, .post-content h5 a:hover, .post-content h5 a:hover, .post-content h6 a:hover, .tagcloud a:hover, .post-date a, .comment-author a, .reply a, .comment-reply-title a  {
-color:#172a31 !important;
-}
-
-.general_bg, .team-member .team-social:hover .team-button, .portfolio-categories ul li a:hover, .portfolio-categories ul li .current, #post-comment-form input[type="submit"], .callout-box, .media-post .rslides_nav:hover, .portfolio-media .rslides_nav:hover, .button-style-2:hover, #post-author:hover img, .post-list-comments li > div:hover > .author-comment-avatar, .callout-box-button:hover, .toggle-active, #backtop:hover, #blog-navigation a:hover, #blog-navigation .current, .button-style-3, #comments-list li > .comment-body:hover > .comment-author img, #nav .sub-menu li a:hover {
-background-color:#172a31 !important;
-}
-.general_border, .text-edit blockquote, .tagcloud a:hover, #post-author:hover img, #comments-list li > .comment-body:hover > .comment-author img, .widget-title, .line-header, #reply-title{
-border-color:#172a31 !important;
-}
-
-.active-tab a {
-	border-top: 3px solid #172a31 !important;
-}
-
-.logo .img-responsive {
-margin: 20px 0 10px;
-}
-
-.homelogo {
-	margin: 180px auto 200px;
-}
-
-body {
-    color: #4a4a4a;
-    font-family: 'open sans', helvetica, verdana, sans-serif;
+ul#nav > li, #desktop-menu .menu li {
+line-height: 76px;
 }
 
 .fancy_wrap div#fancy_outer {
@@ -1020,180 +676,8 @@ body {
     font-family: 'open sans', helvetica, verdana, sans-serif;
 }
 
-.fancy_wrap div#fancy_outer {
-    z-index: 1000;
-}
-
-.spacer {
-height: 805px;
-}
-
-.container .sections-content {
-	max-width: 1000px!important;
-	margin: 0 auto;
-	font-size: 18px;
-	padding-bottom: 2em;
-}
-
-.sections-content a {
-	color: #c15018;
-}
-
-.sections-content a:hover {
-	color: #e7801b;
-}
-
-.sections-content .title {
-	text-align: left;
-}
-
-.sections-content .head-line {
-	display: none;
-}
-
-.sections-content #gallery-1 img, .sections-content #gallery-2 img, .sections-content #gallery-3 img {
-    border: 1px solid #fff;
-}
-
-.sections-content #gallery-1 img:hover, .sections-content #gallery-2 img:hover, .sections-content #gallery-3 img:hover {
-    border: 1px solid #ccc;
-}
-
-.right-gallery {
-	float: right; 
-	width: 50%;
-	text-align: center;
-}
-
-.right-subnav {
-float: right; 
-width: 25%;
-text-align: left;
-padding: 0;
-margin: 0 0 0 20px;
-}
-
-.right-subnav ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-}
-
-.right-subnav li {
-border-bottom: 1px solid #ddd;
-}
-
-.gallery-4wide {
-width: 68%;
-}
-
-#classes .sections-content p {
-width: 68%;
-}
-
-.wp-caption-text {
-    font-size: 16px;
-}
-
-#gallery-1 img {
-    border: 1px solid #fff;
-}
-
-#desktop-menu .menu > li > a, .container_logo a {
-color: #728906;
-font-family: Georgia, "Times New Roman", Times, serif;
-font-size: 24px; !important;
-}
-
-/* this line fixes the header nav items color */
-#desktop-menu .menu > li.menu-item-type-custom > a, .container_logo a {
-color: #728906;
-}
-
-#desktop-menu .menu > #current_menu_item > a, #desktop-menu .menu > .current-menu-item > a, #desktop-menu .menu > li:hover > a {
-color: #c15018;
-}
-
-#main_menu {
-border-color: #172a31 !important;
-background-color:  !important;
-}
-
-#mobile-menu {
-background-color:  !important;
-}
-
-#mobile-menu a {
-
-}
-
-#mobile-menu ul li a {
-border-bottom-color:  !important;
-}
-
-h1 {
-font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-h2 {
-font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-.home .title h2 {
-    padding-top: 1em;
-}
-
-h3 {
-font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-h4 {
-font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-h5 {
-font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-h6 {
-font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-#footer {
-background-color:  !important;
-}
-
-.copyright {
-
-}
-/* END dynamic_css */
-/* BEGIN dynamic_css */
-.general_color, .button-style-1 a, .news-content h1 a:hover, .news-content h2 a:hover, .news-content h3 a:hover, .news-content h4 a:hover, .news-content h5 a:hover, .news-content h6 a:hover, .widget ul li a:hover, .post-tags a:hover, .post-content h1 a:hover, .post-content h2 a:hover, .post-content h3 a:hover, .post-content h5 a:hover, .post-content h5 a:hover, .post-content h6 a:hover, .tagcloud a:hover, .post-date a, .comment-author a, .reply a, .comment-reply-title a  {
-color:#172a31 !important;
-}
-
-.general_bg, .team-member .team-social:hover .team-button, .portfolio-categories ul li a:hover, .portfolio-categories ul li .current, #post-comment-form input[type="submit"], .callout-box, .media-post .rslides_nav:hover, .portfolio-media .rslides_nav:hover, .button-style-2:hover, #post-author:hover img, .post-list-comments li > div:hover > .author-comment-avatar, .callout-box-button:hover, .toggle-active, #backtop:hover, #blog-navigation a:hover, #blog-navigation .current, .button-style-3, #comments-list li > .comment-body:hover > .comment-author img, #nav .sub-menu li a:hover {
-background-color:#172a31 !important;
-}
-.general_border, .text-edit blockquote, .tagcloud a:hover, #post-author:hover img, #comments-list li > .comment-body:hover > .comment-author img, .widget-title, .line-header, #reply-title{
-border-color:#172a31 !important;
-}
-
-.active-tab a {
-	border-top: 3px solid #172a31 !important;
-}
-
-.logo .img-responsive {
-margin: 20px 0 10px;
-}
-
-.homelogo {
-	margin: 180px auto 200px;
-}
-
-body {
-    color: #4a4a4a;
-    font-family: 'open sans', helvetica, verdana, sans-serif;
+ul#nav > li, #desktop-menu .menu li {
+line-height: 76px;
 }
 
 .fancy_wrap div#fancy_outer {
@@ -1372,6 +856,10 @@ body {
     font-family: 'open sans', helvetica, verdana, sans-serif;
 }
 
+ul#nav > li, #desktop-menu .menu li {
+line-height: 76px;
+}
+
 .fancy_wrap div#fancy_outer {
     z-index: 1000;
 }
@@ -1546,6 +1034,730 @@ margin: 20px 0 10px;
 body {
     color: #4a4a4a;
     font-family: 'open sans', helvetica, verdana, sans-serif;
+}
+
+ul#nav > li, #desktop-menu .menu li {
+line-height: 76px;
+}
+
+.fancy_wrap div#fancy_outer {
+    z-index: 1000;
+}
+
+.spacer {
+height: 805px;
+}
+
+.container .sections-content {
+	max-width: 1000px!important;
+	margin: 0 auto;
+	font-size: 18px;
+	padding-bottom: 2em;
+}
+
+.sections-content a {
+	color: #c15018;
+}
+
+.sections-content a:hover {
+	color: #e7801b;
+}
+
+.sections-content .title {
+	text-align: left;
+}
+
+.sections-content .head-line {
+	display: none;
+}
+
+.sections-content #gallery-1 img, .sections-content #gallery-2 img, .sections-content #gallery-3 img {
+    border: 1px solid #fff;
+}
+
+.sections-content #gallery-1 img:hover, .sections-content #gallery-2 img:hover, .sections-content #gallery-3 img:hover {
+    border: 1px solid #ccc;
+}
+
+.right-gallery {
+	float: right; 
+	width: 50%;
+	text-align: center;
+}
+
+.right-subnav {
+float: right; 
+width: 25%;
+text-align: left;
+padding: 0;
+margin: 0 0 0 20px;
+}
+
+.right-subnav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.right-subnav li {
+border-bottom: 1px solid #ddd;
+}
+
+.gallery-4wide {
+width: 68%;
+}
+
+#classes .sections-content p {
+width: 68%;
+}
+
+.wp-caption-text {
+    font-size: 16px;
+}
+
+#gallery-1 img {
+    border: 1px solid #fff;
+}
+
+#desktop-menu .menu > li > a, .container_logo a {
+color: #728906;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 24px; !important;
+}
+
+/* this line fixes the header nav items color */
+#desktop-menu .menu > li.menu-item-type-custom > a, .container_logo a {
+color: #728906;
+}
+
+#desktop-menu .menu > #current_menu_item > a, #desktop-menu .menu > .current-menu-item > a, #desktop-menu .menu > li:hover > a {
+color: #c15018;
+}
+
+#main_menu {
+border-color: #172a31 !important;
+background-color:  !important;
+}
+
+#mobile-menu {
+background-color:  !important;
+}
+
+#mobile-menu a {
+
+}
+
+#mobile-menu ul li a {
+border-bottom-color:  !important;
+}
+
+h1 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.home .title h2 {
+    padding-top: 1em;
+}
+
+h3 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h4 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h5 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h6 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#footer {
+background-color:  !important;
+}
+
+.copyright {
+
+}
+/* END dynamic_css */
+/* BEGIN dynamic_css */
+.general_color, .button-style-1 a, .news-content h1 a:hover, .news-content h2 a:hover, .news-content h3 a:hover, .news-content h4 a:hover, .news-content h5 a:hover, .news-content h6 a:hover, .widget ul li a:hover, .post-tags a:hover, .post-content h1 a:hover, .post-content h2 a:hover, .post-content h3 a:hover, .post-content h5 a:hover, .post-content h5 a:hover, .post-content h6 a:hover, .tagcloud a:hover, .post-date a, .comment-author a, .reply a, .comment-reply-title a  {
+color:#172a31 !important;
+}
+
+.general_bg, .team-member .team-social:hover .team-button, .portfolio-categories ul li a:hover, .portfolio-categories ul li .current, #post-comment-form input[type="submit"], .callout-box, .media-post .rslides_nav:hover, .portfolio-media .rslides_nav:hover, .button-style-2:hover, #post-author:hover img, .post-list-comments li > div:hover > .author-comment-avatar, .callout-box-button:hover, .toggle-active, #backtop:hover, #blog-navigation a:hover, #blog-navigation .current, .button-style-3, #comments-list li > .comment-body:hover > .comment-author img, #nav .sub-menu li a:hover {
+background-color:#172a31 !important;
+}
+.general_border, .text-edit blockquote, .tagcloud a:hover, #post-author:hover img, #comments-list li > .comment-body:hover > .comment-author img, .widget-title, .line-header, #reply-title{
+border-color:#172a31 !important;
+}
+
+.active-tab a {
+	border-top: 3px solid #172a31 !important;
+}
+
+.logo .img-responsive {
+margin: 20px 0 10px;
+}
+
+.homelogo {
+	margin: 180px auto 200px;
+}
+
+body {
+    color: #4a4a4a;
+    font-family: 'open sans', helvetica, verdana, sans-serif;
+}
+
+ul#nav > li, #desktop-menu .menu li {
+line-height: 76px;
+}
+
+.fancy_wrap div#fancy_outer {
+    z-index: 1000;
+}
+
+.spacer {
+height: 805px;
+}
+
+.container .sections-content {
+	max-width: 1000px!important;
+	margin: 0 auto;
+	font-size: 18px;
+	padding-bottom: 2em;
+}
+
+.sections-content a {
+	color: #c15018;
+}
+
+.sections-content a:hover {
+	color: #e7801b;
+}
+
+.sections-content .title {
+	text-align: left;
+}
+
+.sections-content .head-line {
+	display: none;
+}
+
+.sections-content #gallery-1 img, .sections-content #gallery-2 img, .sections-content #gallery-3 img {
+    border: 1px solid #fff;
+}
+
+.sections-content #gallery-1 img:hover, .sections-content #gallery-2 img:hover, .sections-content #gallery-3 img:hover {
+    border: 1px solid #ccc;
+}
+
+.right-gallery {
+	float: right; 
+	width: 50%;
+	text-align: center;
+}
+
+.right-subnav {
+float: right; 
+width: 25%;
+text-align: left;
+padding: 0;
+margin: 0 0 0 20px;
+}
+
+.right-subnav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.right-subnav li {
+border-bottom: 1px solid #ddd;
+}
+
+.gallery-4wide {
+width: 68%;
+}
+
+#classes .sections-content p {
+width: 68%;
+}
+
+.wp-caption-text {
+    font-size: 16px;
+}
+
+#gallery-1 img {
+    border: 1px solid #fff;
+}
+
+#desktop-menu .menu > li > a, .container_logo a {
+color: #728906;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 24px; !important;
+}
+
+/* this line fixes the header nav items color */
+#desktop-menu .menu > li.menu-item-type-custom > a, .container_logo a {
+color: #728906;
+}
+
+#desktop-menu .menu > #current_menu_item > a, #desktop-menu .menu > .current-menu-item > a, #desktop-menu .menu > li:hover > a {
+color: #c15018;
+}
+
+#main_menu {
+border-color: #172a31 !important;
+background-color:  !important;
+}
+
+#mobile-menu {
+background-color:  !important;
+}
+
+#mobile-menu a {
+
+}
+
+#mobile-menu ul li a {
+border-bottom-color:  !important;
+}
+
+h1 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.home .title h2 {
+    padding-top: 1em;
+}
+
+h3 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h4 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h5 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h6 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#footer {
+background-color:  !important;
+}
+
+.copyright {
+
+}
+/* END dynamic_css */
+/* BEGIN dynamic_css */
+.general_color, .button-style-1 a, .news-content h1 a:hover, .news-content h2 a:hover, .news-content h3 a:hover, .news-content h4 a:hover, .news-content h5 a:hover, .news-content h6 a:hover, .widget ul li a:hover, .post-tags a:hover, .post-content h1 a:hover, .post-content h2 a:hover, .post-content h3 a:hover, .post-content h5 a:hover, .post-content h5 a:hover, .post-content h6 a:hover, .tagcloud a:hover, .post-date a, .comment-author a, .reply a, .comment-reply-title a  {
+color:#172a31 !important;
+}
+
+.general_bg, .team-member .team-social:hover .team-button, .portfolio-categories ul li a:hover, .portfolio-categories ul li .current, #post-comment-form input[type="submit"], .callout-box, .media-post .rslides_nav:hover, .portfolio-media .rslides_nav:hover, .button-style-2:hover, #post-author:hover img, .post-list-comments li > div:hover > .author-comment-avatar, .callout-box-button:hover, .toggle-active, #backtop:hover, #blog-navigation a:hover, #blog-navigation .current, .button-style-3, #comments-list li > .comment-body:hover > .comment-author img, #nav .sub-menu li a:hover {
+background-color:#172a31 !important;
+}
+.general_border, .text-edit blockquote, .tagcloud a:hover, #post-author:hover img, #comments-list li > .comment-body:hover > .comment-author img, .widget-title, .line-header, #reply-title{
+border-color:#172a31 !important;
+}
+
+.active-tab a {
+	border-top: 3px solid #172a31 !important;
+}
+
+.logo .img-responsive {
+margin: 20px 0 10px;
+}
+
+.homelogo {
+	margin: 180px auto 200px;
+}
+
+body {
+    color: #4a4a4a;
+    font-family: 'open sans', helvetica, verdana, sans-serif;
+}
+
+ul#nav > li, #desktop-menu .menu li {
+line-height: 76px;
+}
+
+.fancy_wrap div#fancy_outer {
+    z-index: 1000;
+}
+
+.spacer {
+height: 805px;
+}
+
+.container .sections-content {
+	max-width: 1000px!important;
+	margin: 0 auto;
+	font-size: 18px;
+	padding-bottom: 2em;
+}
+
+.sections-content a {
+	color: #c15018;
+}
+
+.sections-content a:hover {
+	color: #e7801b;
+}
+
+.sections-content .title {
+	text-align: left;
+}
+
+.sections-content .head-line {
+	display: none;
+}
+
+.sections-content #gallery-1 img, .sections-content #gallery-2 img, .sections-content #gallery-3 img {
+    border: 1px solid #fff;
+}
+
+.sections-content #gallery-1 img:hover, .sections-content #gallery-2 img:hover, .sections-content #gallery-3 img:hover {
+    border: 1px solid #ccc;
+}
+
+.right-gallery {
+	float: right; 
+	width: 50%;
+	text-align: center;
+}
+
+.right-subnav {
+float: right; 
+width: 25%;
+text-align: left;
+padding: 0;
+margin: 0 0 0 20px;
+}
+
+.right-subnav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.right-subnav li {
+border-bottom: 1px solid #ddd;
+}
+
+.gallery-4wide {
+width: 68%;
+}
+
+#classes .sections-content p {
+width: 68%;
+}
+
+.wp-caption-text {
+    font-size: 16px;
+}
+
+#gallery-1 img {
+    border: 1px solid #fff;
+}
+
+#desktop-menu .menu > li > a, .container_logo a {
+color: #728906;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 24px; !important;
+}
+
+/* this line fixes the header nav items color */
+#desktop-menu .menu > li.menu-item-type-custom > a, .container_logo a {
+color: #728906;
+}
+
+#desktop-menu .menu > #current_menu_item > a, #desktop-menu .menu > .current-menu-item > a, #desktop-menu .menu > li:hover > a {
+color: #c15018;
+}
+
+#main_menu {
+border-color: #172a31 !important;
+background-color:  !important;
+}
+
+#mobile-menu {
+background-color:  !important;
+}
+
+#mobile-menu a {
+
+}
+
+#mobile-menu ul li a {
+border-bottom-color:  !important;
+}
+
+h1 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.home .title h2 {
+    padding-top: 1em;
+}
+
+h3 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h4 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h5 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h6 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#footer {
+background-color:  !important;
+}
+
+.copyright {
+
+}
+/* END dynamic_css */
+/* BEGIN dynamic_css */
+.general_color, .button-style-1 a, .news-content h1 a:hover, .news-content h2 a:hover, .news-content h3 a:hover, .news-content h4 a:hover, .news-content h5 a:hover, .news-content h6 a:hover, .widget ul li a:hover, .post-tags a:hover, .post-content h1 a:hover, .post-content h2 a:hover, .post-content h3 a:hover, .post-content h5 a:hover, .post-content h5 a:hover, .post-content h6 a:hover, .tagcloud a:hover, .post-date a, .comment-author a, .reply a, .comment-reply-title a  {
+color:#172a31 !important;
+}
+
+.general_bg, .team-member .team-social:hover .team-button, .portfolio-categories ul li a:hover, .portfolio-categories ul li .current, #post-comment-form input[type="submit"], .callout-box, .media-post .rslides_nav:hover, .portfolio-media .rslides_nav:hover, .button-style-2:hover, #post-author:hover img, .post-list-comments li > div:hover > .author-comment-avatar, .callout-box-button:hover, .toggle-active, #backtop:hover, #blog-navigation a:hover, #blog-navigation .current, .button-style-3, #comments-list li > .comment-body:hover > .comment-author img, #nav .sub-menu li a:hover {
+background-color:#172a31 !important;
+}
+.general_border, .text-edit blockquote, .tagcloud a:hover, #post-author:hover img, #comments-list li > .comment-body:hover > .comment-author img, .widget-title, .line-header, #reply-title{
+border-color:#172a31 !important;
+}
+
+.active-tab a {
+	border-top: 3px solid #172a31 !important;
+}
+
+.logo .img-responsive {
+margin: 20px 0 10px;
+}
+
+.homelogo {
+	margin: 180px auto 200px;
+}
+
+body {
+    color: #4a4a4a;
+    font-family: 'open sans', helvetica, verdana, sans-serif;
+}
+
+ul#nav > li, #desktop-menu .menu li {
+line-height: 76px;
+}
+
+.fancy_wrap div#fancy_outer {
+    z-index: 1000;
+}
+
+.spacer {
+height: 805px;
+}
+
+.container .sections-content {
+	max-width: 1000px!important;
+	margin: 0 auto;
+	font-size: 18px;
+	padding-bottom: 2em;
+}
+
+.sections-content a {
+	color: #c15018;
+}
+
+.sections-content a:hover {
+	color: #e7801b;
+}
+
+.sections-content .title {
+	text-align: left;
+}
+
+.sections-content .head-line {
+	display: none;
+}
+
+.sections-content #gallery-1 img, .sections-content #gallery-2 img, .sections-content #gallery-3 img {
+    border: 1px solid #fff;
+}
+
+.sections-content #gallery-1 img:hover, .sections-content #gallery-2 img:hover, .sections-content #gallery-3 img:hover {
+    border: 1px solid #ccc;
+}
+
+.right-gallery {
+	float: right; 
+	width: 50%;
+	text-align: center;
+}
+
+.right-subnav {
+float: right; 
+width: 25%;
+text-align: left;
+padding: 0;
+margin: 0 0 0 20px;
+}
+
+.right-subnav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.right-subnav li {
+border-bottom: 1px solid #ddd;
+}
+
+.gallery-4wide {
+width: 68%;
+}
+
+#classes .sections-content p {
+width: 68%;
+}
+
+.wp-caption-text {
+    font-size: 16px;
+}
+
+#gallery-1 img {
+    border: 1px solid #fff;
+}
+
+#desktop-menu .menu > li > a, .container_logo a {
+color: #728906;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 24px; !important;
+}
+
+/* this line fixes the header nav items color */
+#desktop-menu .menu > li.menu-item-type-custom > a, .container_logo a {
+color: #728906;
+}
+
+#desktop-menu .menu > #current_menu_item > a, #desktop-menu .menu > .current-menu-item > a, #desktop-menu .menu > li:hover > a {
+color: #c15018;
+}
+
+#main_menu {
+border-color: #172a31 !important;
+background-color:  !important;
+}
+
+#mobile-menu {
+background-color:  !important;
+}
+
+#mobile-menu a {
+
+}
+
+#mobile-menu ul li a {
+border-bottom-color:  !important;
+}
+
+h1 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.home .title h2 {
+    padding-top: 1em;
+}
+
+h3 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h4 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h5 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h6 {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#footer {
+background-color:  !important;
+}
+
+.copyright {
+
+}
+/* END dynamic_css */
+/* BEGIN dynamic_css */
+.general_color, .button-style-1 a, .news-content h1 a:hover, .news-content h2 a:hover, .news-content h3 a:hover, .news-content h4 a:hover, .news-content h5 a:hover, .news-content h6 a:hover, .widget ul li a:hover, .post-tags a:hover, .post-content h1 a:hover, .post-content h2 a:hover, .post-content h3 a:hover, .post-content h5 a:hover, .post-content h5 a:hover, .post-content h6 a:hover, .tagcloud a:hover, .post-date a, .comment-author a, .reply a, .comment-reply-title a  {
+color:#172a31 !important;
+}
+
+.general_bg, .team-member .team-social:hover .team-button, .portfolio-categories ul li a:hover, .portfolio-categories ul li .current, #post-comment-form input[type="submit"], .callout-box, .media-post .rslides_nav:hover, .portfolio-media .rslides_nav:hover, .button-style-2:hover, #post-author:hover img, .post-list-comments li > div:hover > .author-comment-avatar, .callout-box-button:hover, .toggle-active, #backtop:hover, #blog-navigation a:hover, #blog-navigation .current, .button-style-3, #comments-list li > .comment-body:hover > .comment-author img, #nav .sub-menu li a:hover {
+background-color:#172a31 !important;
+}
+.general_border, .text-edit blockquote, .tagcloud a:hover, #post-author:hover img, #comments-list li > .comment-body:hover > .comment-author img, .widget-title, .line-header, #reply-title{
+border-color:#172a31 !important;
+}
+
+.active-tab a {
+	border-top: 3px solid #172a31 !important;
+}
+
+.logo .img-responsive {
+margin: 20px 0 10px;
+}
+
+.homelogo {
+	margin: 180px auto 200px;
+}
+
+body {
+    color: #4a4a4a;
+    font-family: 'open sans', helvetica, verdana, sans-serif;
+}
+
+ul#nav > li, #desktop-menu .menu li {
+line-height: 76px;
 }
 
 .fancy_wrap div#fancy_outer {
