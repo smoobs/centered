@@ -30,7 +30,7 @@ CREATE TABLE `wp_postmeta` (
   PRIMARY KEY (`meta_id`),
   KEY `post_id` (`post_id`),
   KEY `meta_key` (`meta_key`)
-) ENGINE=InnoDB AUTO_INCREMENT=377 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=379 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -198,11 +198,11 @@ INSERT INTO `wp_postmeta` VALUES (189,10,'page_custom_title','The Studio');
 INSERT INTO `wp_postmeta` VALUES (190,10,'title_color','#c14413');
 INSERT INTO `wp_postmeta` VALUES (191,20,'page_custom_title','Contact Centered Yoga');
 INSERT INTO `wp_postmeta` VALUES (192,70,'_edit_last','1');
-INSERT INTO `wp_postmeta` VALUES (193,70,'_edit_lock','1408635030:1');
+INSERT INTO `wp_postmeta` VALUES (193,70,'_edit_lock','1408716221:1');
 INSERT INTO `wp_postmeta` VALUES (194,70,'slide_template','');
 INSERT INTO `wp_postmeta` VALUES (195,70,'container_width','default');
 INSERT INTO `wp_postmeta` VALUES (196,70,'background_type','image');
-INSERT INTO `wp_postmeta` VALUES (197,70,'background_image','http://centered.co.uk/wp-content/uploads/2014/08/P5033393.jpg');
+INSERT INTO `wp_postmeta` VALUES (197,70,'background_image','http://centered.co.uk/wp-content/uploads/2014/08/garden-studio.jpg');
 INSERT INTO `wp_postmeta` VALUES (198,70,'background_color','#FFFFFF');
 INSERT INTO `wp_postmeta` VALUES (199,70,'background_parallax','1');
 INSERT INTO `wp_postmeta` VALUES (200,73,'_edit_last','1');
@@ -309,12 +309,14 @@ INSERT INTO `wp_postmeta` VALUES (367,153,'background_image','http://centered.co
 INSERT INTO `wp_postmeta` VALUES (368,153,'background_color','#FFFFFF');
 INSERT INTO `wp_postmeta` VALUES (369,153,'background_parallax','1');
 INSERT INTO `wp_postmeta` VALUES (370,156,'_edit_last','1');
-INSERT INTO `wp_postmeta` VALUES (371,156,'_edit_lock','1408710078:1');
+INSERT INTO `wp_postmeta` VALUES (371,156,'_edit_lock','1408715987:1');
 INSERT INTO `wp_postmeta` VALUES (372,156,'slide_template','');
 INSERT INTO `wp_postmeta` VALUES (373,156,'container_width','default');
 INSERT INTO `wp_postmeta` VALUES (374,156,'background_type','color');
 INSERT INTO `wp_postmeta` VALUES (375,156,'background_color','#FFFFFF');
 INSERT INTO `wp_postmeta` VALUES (376,156,'page_custom_title','How to Get Here');
+INSERT INTO `wp_postmeta` VALUES (377,160,'_wp_attached_file','2014/08/garden-studio.jpg');
+INSERT INTO `wp_postmeta` VALUES (378,160,'_wp_attachment_metadata','a:5:{s:5:\"width\";i:1500;s:6:\"height\";i:744;s:4:\"file\";s:25:\"2014/08/garden-studio.jpg\";s:5:\"sizes\";a:15:{s:9:\"thumbnail\";a:4:{s:4:\"file\";s:25:\"garden-studio-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:6:\"medium\";a:4:{s:4:\"file\";s:25:\"garden-studio-300x148.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:148;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:5:\"large\";a:4:{s:4:\"file\";s:26:\"garden-studio-1024x507.jpg\";s:5:\"width\";i:1024;s:6:\"height\";i:507;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:10:\"post-thumb\";a:4:{s:4:\"file\";s:25:\"garden-studio-800x450.jpg\";s:5:\"width\";i:800;s:6:\"height\";i:450;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:15:\"portfolio-thumb\";a:4:{s:4:\"file\";s:25:\"garden-studio-690x744.jpg\";s:5:\"width\";i:690;s:6:\"height\";i:744;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:12:\"four-columns\";a:4:{s:4:\"file\";s:25:\"garden-studio-228x160.jpg\";s:5:\"width\";i:228;s:6:\"height\";i:160;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:11:\"two-columns\";a:4:{s:4:\"file\";s:25:\"garden-studio-472x295.jpg\";s:5:\"width\";i:472;s:6:\"height\";i:295;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:15:\"thumbnail-large\";a:4:{s:4:\"file\";s:23:\"garden-studio-75x75.jpg\";s:5:\"width\";i:75;s:6:\"height\";i:75;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:14:\"thumbnail-wide\";a:4:{s:4:\"file\";s:25:\"garden-studio-300x100.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:100;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:10:\"main-image\";a:4:{s:4:\"file\";s:25:\"garden-studio-285x280.jpg\";s:5:\"width\";i:285;s:6:\"height\";i:280;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:19:\"main-image-pictures\";a:4:{s:4:\"file\";s:25:\"garden-studio-290x280.jpg\";s:5:\"width\";i:290;s:6:\"height\";i:280;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:10:\"lead-image\";a:4:{s:4:\"file\";s:25:\"garden-studio-690x330.jpg\";s:5:\"width\";i:690;s:6:\"height\";i:330;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:15:\"portfolio-image\";a:4:{s:4:\"file\";s:25:\"garden-studio-800x450.jpg\";s:5:\"width\";i:800;s:6:\"height\";i:450;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:10:\"news-image\";a:4:{s:4:\"file\";s:25:\"garden-studio-370x208.jpg\";s:5:\"width\";i:370;s:6:\"height\";i:208;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:19:\"post-thumb-blogroll\";a:4:{s:4:\"file\";s:26:\"garden-studio-1100x450.jpg\";s:5:\"width\";i:1100;s:6:\"height\";i:450;s:9:\"mime-type\";s:10:\"image/jpeg\";}}s:10:\"image_meta\";a:10:{s:8:\"aperture\";i:0;s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";i:0;s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";i:0;s:3:\"iso\";i:0;s:13:\"shutter_speed\";i:0;s:5:\"title\";s:0:\"\";}}');
 /*!40000 ALTER TABLE `wp_postmeta` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
