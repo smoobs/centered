@@ -309,7 +309,7 @@ INSERT INTO `wp_postmeta` VALUES (367,153,'background_image','http://centered.co
 INSERT INTO `wp_postmeta` VALUES (368,153,'background_color','#FFFFFF');
 INSERT INTO `wp_postmeta` VALUES (369,153,'background_parallax','1');
 INSERT INTO `wp_postmeta` VALUES (370,156,'_edit_last','1');
-INSERT INTO `wp_postmeta` VALUES (371,156,'_edit_lock','1408709224:1');
+INSERT INTO `wp_postmeta` VALUES (371,156,'_edit_lock','1408710078:1');
 INSERT INTO `wp_postmeta` VALUES (372,156,'slide_template','');
 INSERT INTO `wp_postmeta` VALUES (373,156,'container_width','default');
 INSERT INTO `wp_postmeta` VALUES (374,156,'background_type','color');
