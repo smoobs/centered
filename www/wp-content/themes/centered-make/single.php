@@ -9,7 +9,7 @@
 ?>
 	<div id="blog" class="section">
 		<div class="container">
-			<div class="row">
+			<div class="row sections-content">
 				<div class="title">
 					<h2><?php $categories = get_the_category(); foreach($categories as $category) { $cat_name = $category->name; if($cat_name != 'featured') echo ''.$cat_name . ' '; } ?></h2>
 					<div class="head-line-dark"></div>
