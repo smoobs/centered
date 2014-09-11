@@ -1,0 +1,39 @@
+/*
+Theme Name:     Centered Bespoke - Divi
+Description:    
+Author:         Admin
+Template:       Divi
+
+(optional values you can add: Theme URI, Author URI, Version)
+*/
+
+@import url("../Divi/style.css");
+
+body {
+	font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6, #top-menu li {
+	font-family: georgia, 'times new roman', serif !important;
+	line-height: 1.4em;
+}
+
+#top-menu li {
+	font-size: 22px;
+}
+
+.aligncenter {
+	text-align: center;
+}
+
+.homelogo {
+    margin: 120px auto!important;
+}
+
+#et_top_search {
+	display: none;
+}
+
+.front-image-section {
+	min-height: 850px;
+}
