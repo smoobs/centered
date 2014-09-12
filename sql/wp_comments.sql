@@ -42,7 +42,8 @@ CREATE TABLE `wp_comments` (
   KEY `comment_post_ID` (`comment_post_ID`),
   KEY `comment_approved_date_gmt` (`comment_approved`,`comment_date_gmt`),
   KEY `comment_date_gmt` (`comment_date_gmt`),
-  KEY `comment_parent` (`comment_parent`)
+  KEY `comment_parent` (`comment_parent`),
+  KEY `comment_author_email` (`comment_author_email`(10))
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 

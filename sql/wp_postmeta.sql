@@ -293,7 +293,7 @@ INSERT INTO `wp_postmeta` VALUES (426,182,'_edit_lock','1409088849:1');
 INSERT INTO `wp_postmeta` VALUES (427,182,'_wp_page_template','default');
 INSERT INTO `wp_postmeta` VALUES (428,182,'slide_template','');
 INSERT INTO `wp_postmeta` VALUES (429,185,'_edit_last','1');
-INSERT INTO `wp_postmeta` VALUES (430,185,'_edit_lock','1410450409:1');
+INSERT INTO `wp_postmeta` VALUES (430,185,'_edit_lock','1410455996:1');
 INSERT INTO `wp_postmeta` VALUES (431,185,'_wp_page_template','default');
 INSERT INTO `wp_postmeta` VALUES (432,185,'slide_template','');
 INSERT INTO `wp_postmeta` VALUES (433,189,'_wp_attached_file','2014/08/adho-mukha-svanasana.jpg');

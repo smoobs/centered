@@ -30,7 +30,7 @@ CREATE TABLE `wp_usermeta` (
   PRIMARY KEY (`umeta_id`),
   KEY `user_id` (`user_id`),
   KEY `meta_key` (`meta_key`)
-) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -56,10 +56,13 @@ INSERT INTO `wp_usermeta` VALUES (14,1,'wp_dashboard_quick_press_last_post_id','
 INSERT INTO `wp_usermeta` VALUES (15,1,'closedpostboxes_dashboard','a:0:{}');
 INSERT INTO `wp_usermeta` VALUES (16,1,'metaboxhidden_dashboard','a:3:{i:0;s:18:\"dashboard_activity\";i:1;s:21:\"dashboard_quick_press\";i:2;s:17:\"dashboard_primary\";}');
 INSERT INTO `wp_usermeta` VALUES (17,1,'wp_user-settings','editor=html&libraryContent=browse&urlbutton=none&imgsize=full&align=right&wplink=1&ed_size=448');
-INSERT INTO `wp_usermeta` VALUES (18,1,'wp_user-settings-time','1410447394');
+INSERT INTO `wp_usermeta` VALUES (18,1,'wp_user-settings-time','1410453771');
 INSERT INTO `wp_usermeta` VALUES (19,1,'managenav-menuscolumnshidden','a:4:{i:0;s:11:\"link-target\";i:1;s:11:\"css-classes\";i:2;s:3:\"xfn\";i:3;s:11:\"description\";}');
 INSERT INTO `wp_usermeta` VALUES (20,1,'metaboxhidden_nav-menus','a:8:{i:0;s:8:\"add-post\";i:1;s:8:\"add-team\";i:2;s:11:\"add-clients\";i:3;s:13:\"add-portfolio\";i:4;s:11:\"add-onepage\";i:5;s:12:\"add-post_tag\";i:6;s:15:\"add-post_format\";i:7;s:22:\"add-portfolio-category\";}');
 INSERT INTO `wp_usermeta` VALUES (21,1,'nav_menu_recently_edited','2');
+INSERT INTO `wp_usermeta` VALUES (22,1,'closedpostboxes_page','a:0:{}');
+INSERT INTO `wp_usermeta` VALUES (23,1,'metaboxhidden_page','a:7:{i:0;s:12:\"postimagediv\";i:1;s:12:\"revisionsdiv\";i:2;s:10:\"postcustom\";i:3;s:16:\"commentstatusdiv\";i:4;s:11:\"commentsdiv\";i:5;s:7:\"slugdiv\";i:6;s:9:\"authordiv\";}');
+INSERT INTO `wp_usermeta` VALUES (24,1,'session_tokens','a:1:{s:64:\"86e0b114f24eba9149eb5259b5d4604c3c2d105a06e78eb878eb463ca4b8f233\";i:1410696300;}');
 /*!40000 ALTER TABLE `wp_usermeta` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
