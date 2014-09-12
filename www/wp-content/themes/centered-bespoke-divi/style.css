@@ -18,6 +18,11 @@ body {
     padding: 10px 0 0;
 }
 
+.et-search-form, .nav li ul, .et_mobile_menu, .footer-widget li:before, .et_pb_pricing li:before, blockquote {
+    border-color: #172a31!important;
+	
+}
+
 h1, h2, h3, h4, h5, h6, #top-menu li, ul.right-nav {
 	font-family: georgia, 'times new roman', serif !important;
 	line-height: 1.4em;
@@ -25,6 +30,10 @@ h1, h2, h3, h4, h5, h6, #top-menu li, ul.right-nav {
 
 #top-menu li {
 	font-size: 20px;
+}
+
+#top-menu li.current-menu-ancestor.et-hover > a, #top-menu li.current-menu-item.et-hover > a, .bottom-nav li.current-menu-item.et-hover > a {
+    color: #c15018;
 }
 
 .aligncenter {
@@ -68,7 +77,7 @@ h1, h2, h3, h4, h5, h6, #top-menu li, ul.right-nav {
 	-moz-transition: all 0.2s ease-in-out; 
 	-webkit-transition: all 0.2s ease-in-out; 
 	transition: all 0.2s ease-in-out; 
-	margin-bottom: 18px; 
+	margin-bottom: 10px; 
 	margin-top: 10px;
 	width: 353px !important;
 	height: 45px !important;
@@ -77,14 +86,14 @@ h1, h2, h3, h4, h5, h6, #top-menu li, ul.right-nav {
 .et_fixed_nav #logo { 
 	height: 45px !important; 
 	max-height: 45px !important;
-	margin-bottom: 18px !important; 
+	margin-bottom: 10px !important; 
 	margin-top: 10px;
 }
 
 .et-fixed-header #logo { 
 	height: 45px !important; 
 	max-height: 45px !important;
-	margin-bottom: 18px !important;
+	margin-bottom: 10px !important;
 	margin-top: 10px;
 }
 
