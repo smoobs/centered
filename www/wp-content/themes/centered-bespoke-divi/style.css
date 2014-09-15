@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6, #top-menu li, #et-secondary-nav li, ul.right-nav {
     margin: 120px auto!important;
 }
 
-#et_top_search {
+#et_top_search, #footer-bottom {
 	display: none;
 }
 
