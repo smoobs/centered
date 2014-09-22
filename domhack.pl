@@ -53,7 +53,7 @@ sub mk_matcher {
 
 sub fix_value {
   my $v = shift;
-  return $v unless $v =~ /\Q$from/;
+#  return $v unless $v =~ /\Q$from/;
   my $vv = $unescape->($v);
   my $ds = eval { unserialize $vv };
   if ($@) {
