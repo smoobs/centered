@@ -27,7 +27,7 @@ body {
 	
 }
 
-h1, h2, h3, h4, h5, h6, #top-menu li, #et-secondary-nav li, ul.right-nav {
+h1, h2, h3, h4, h5, h6, #top-menu li, #et-secondary-nav li, ul.right-nav, .bottom-nav, .phone {
 	font-family: georgia, 'times new roman', serif !important;
 	line-height: 1.4em;
 }
@@ -147,4 +147,20 @@ h1, h2, h3, h4, h5, h6, #top-menu li, #et-secondary-nav li, ul.right-nav {
 
 .mainfont {
 	padding: 1em 0;
+}
+
+
+.bottom-nav {
+    padding: 15px 0;
+	width: 49%;
+	display: inline-block;
+}
+
+.phone {
+	width: 49%;
+	text-align: right;
+	display: inline-block;
+	color: #c15018;
+	font-size: 1.2em;
+	
 }

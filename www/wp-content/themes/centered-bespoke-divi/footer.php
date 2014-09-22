@@ -24,6 +24,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 								'fallback_cb'    => '',
 							) );
 						?>
+						<div class="phone">01453 760014</div>
 					</div>
 				</div> <!-- #et-footer-nav -->
 
