@@ -2,6 +2,9 @@
 
 . ./config.sh
 
+echo "INDOM:  $INDOM"
+echo "OUTDOM: $OUTDOM"
+
 eval $( ./find-mysql.sh )
 
 for tbl in "$OUT"/wp_*.sql; do
