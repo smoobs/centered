@@ -11,7 +11,7 @@ while ssleep 10; do
     head=$( cat .git/refs/heads/master )
     git diff --numstat $prev..$head | awk -e '{ print $3 }' | grep '^sql/' | while read tbl; do
       echo "Loading $tbl"
-      cat "$tbl" | perl domhack.pl $INDOM $OUTDOM | $MYSQL -u$USER $DB
+      cat "$tbl" | perl domhack.pl $INDOM $OUTDOM | perl domhack.pl 'C:\Users\Smoo\Documents\001 - centered\centered\' '/opt/centred/' | $MYSQL -u$USER $DB
     done
   fi
   cp .git/refs/heads/master "$FLAG"

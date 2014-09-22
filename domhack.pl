@@ -5,6 +5,7 @@ use warnings;
 
 use lib qw( lib );
 
+use JSON;
 use Data::Dumper;
 use PHP::Serialization qw( serialize unserialize );
 use Scalar::Util qw( blessed );
@@ -49,6 +50,12 @@ sub mk_encoder {
 sub mk_matcher {
   my $pat = join '|', map quotemeta, @_;
   return qr{($pat)};
+}
+
+sub deep_cmp {
+  my ( $a, $b ) = @_;
+  my $json = JSON->new->canonical->utf8->allow_nonref;
+  return $json->encode($a) cmp $json->encode($b);
 }
 
 sub fix_value {

@@ -1,3 +1,5 @@
 .*.sw?
+/config-local.sh
+/sql.cooked/
 Session.vim
 hs~*
