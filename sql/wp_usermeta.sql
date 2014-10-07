@@ -52,7 +52,7 @@ INSERT INTO `wp_usermeta` VALUES (10,1,'wp_capabilities','a:1:{s:13:\"administra
 INSERT INTO `wp_usermeta` VALUES (11,1,'wp_user_level','10');
 INSERT INTO `wp_usermeta` VALUES (12,1,'dismissed_wp_pointers','wp350_media,wp360_revisions,wp360_locks,wp390_widgets');
 INSERT INTO `wp_usermeta` VALUES (13,1,'show_welcome_panel','0');
-INSERT INTO `wp_usermeta` VALUES (14,1,'wp_dashboard_quick_press_last_post_id','422');
+INSERT INTO `wp_usermeta` VALUES (14,1,'wp_dashboard_quick_press_last_post_id','444');
 INSERT INTO `wp_usermeta` VALUES (15,1,'closedpostboxes_dashboard','a:0:{}');
 INSERT INTO `wp_usermeta` VALUES (16,1,'metaboxhidden_dashboard','a:3:{i:0;s:18:\"dashboard_activity\";i:1;s:21:\"dashboard_quick_press\";i:2;s:17:\"dashboard_primary\";}');
 INSERT INTO `wp_usermeta` VALUES (17,1,'wp_user-settings','editor=tinymce&libraryContent=browse&urlbutton=custom&imgsize=large&align=none&wplink=1&ed_size=448');
@@ -62,7 +62,7 @@ INSERT INTO `wp_usermeta` VALUES (20,1,'metaboxhidden_nav-menus','a:8:{i:0;s:8:\
 INSERT INTO `wp_usermeta` VALUES (21,1,'nav_menu_recently_edited','2');
 INSERT INTO `wp_usermeta` VALUES (22,1,'closedpostboxes_page','a:0:{}');
 INSERT INTO `wp_usermeta` VALUES (23,1,'metaboxhidden_page','a:7:{i:0;s:12:\"postimagediv\";i:1;s:12:\"revisionsdiv\";i:2;s:10:\"postcustom\";i:3;s:16:\"commentstatusdiv\";i:4;s:11:\"commentsdiv\";i:5;s:7:\"slugdiv\";i:6;s:9:\"authordiv\";}');
-INSERT INTO `wp_usermeta` VALUES (24,1,'session_tokens','a:1:{s:64:\"e6179d3b312fc2342e9e5211bc1b40d2b1f1ff9f9e5b355b13ff4726ec9c06cd\";i:1411304924;}');
+INSERT INTO `wp_usermeta` VALUES (24,1,'session_tokens','a:1:{s:64:\"322e017ccdaec6fb215dbad5ed2e0ee49a62bd3e0398e2c1af49451601116d60\";i:1412845786;}');
 /*!40000 ALTER TABLE `wp_usermeta` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
