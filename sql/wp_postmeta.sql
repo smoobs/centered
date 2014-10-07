@@ -472,7 +472,7 @@ INSERT INTO `wp_postmeta` VALUES (639,346,'_et_pb_predefined_layout','on');
 INSERT INTO `wp_postmeta` VALUES (640,347,'_et_pb_predefined_layout','on');
 INSERT INTO `wp_postmeta` VALUES (641,348,'_et_pb_predefined_layout','on');
 INSERT INTO `wp_postmeta` VALUES (642,372,'_edit_last','1');
-INSERT INTO `wp_postmeta` VALUES (643,372,'_edit_lock','1412673831:1');
+INSERT INTO `wp_postmeta` VALUES (643,372,'_edit_lock','1412674214:1');
 INSERT INTO `wp_postmeta` VALUES (644,182,'_et_pb_page_layout','et_right_sidebar');
 INSERT INTO `wp_postmeta` VALUES (645,182,'_et_pb_side_nav','off');
 INSERT INTO `wp_postmeta` VALUES (646,182,'_et_pb_use_builder','on');
