@@ -1,3 +1,42 @@
+RewriteEngine On
+Redirect 301 /iyengar_yoga/index.php http://www.centered.co.uk/#iyengar-yoga
+Redirect 301 /the_studio/index.php http://www.centered.co.uk/#the-studio 
+Redirect 301 /the_studio/studio-sladehouse.html http://www.centered.co.uk/#the-studio
+Redirect 301 /the_studio/studio-garden.html http://www.centered.co.uk/#the-studio
+Redirect 301 /the_studio/studio.html http://www.centered.co.uk/#the-studio
+Redirect 301 /the_studio/studio-picture-wall.html http://www.centered.co.uk/#the-studio
+Redirect 301 /the_studio/studio-interior1.html http://www.centered.co.uk/#the-studio
+Redirect 301 /the_studio/studio-interior2.html http://www.centered.co.uk/#the-studio
+Redirect 301 /the_studio/studio-sladehouse.html http://www.centered.co.uk/#the-studio
+Redirect 301 /classes/index.php http://www.centered.co.uk/#classes
+Redirect 301 /classes/class-1.html http://www.centered.co.uk/#classes
+Redirect 301 /classes/class-2.html http://www.centered.co.uk/#classes
+Redirect 301 /classes/class-3.html http://www.centered.co.uk/#classes
+Redirect 301 /classes/class-4.html http://www.centered.co.uk/#classes
+Redirect 301 /classes/class-5.html http://www.centered.co.uk/#classes
+Redirect 301 /classes/class-6.html http://www.centered.co.uk/#classes
+Redirect 301 /classes/class-7.html http://www.centered.co.uk/#classes
+Redirect 301 /classes/class-8.html http://www.centered.co.uk/#classes
+Redirect 301 /classes/the_teacher.php http://www.centered.co.uk/classes/the-teacher/
+Redirect 301 /classes/teacher-1.html http://www.centered.co.uk/classes/the-teacher/
+Redirect 301 /classes/teacher-2.html http://www.centered.co.uk/classes/the-teacher/
+Redirect 301 /classes/teacher-3.html http://www.centered.co.uk/classes/the-teacher/
+Redirect 301 /classes/teacher-4.html http://www.centered.co.uk/classes/the-teacher/
+Redirect 301 /classes/teacher-5.html http://www.centered.co.uk/classes/the-teacher/
+Redirect 301 /classes/teacher-6.html http://www.centered.co.uk/classes/the-teacher/
+Redirect 301 /classes/teacher-7.html http://www.centered.co.uk/classes/the-teacher/
+Redirect 301 /classes/teacher-8.html http://www.centered.co.uk/classes/the-teacher/
+Redirect 301 /classes/preparation.php http://www.centered.co.uk/classes/preparation/
+Redirect 301 /classes/timetable.php http://www.centered.co.uk/classes/timetable/
+Redirect 301 /classes/cost.php http://www.centered.co.uk/classes/cost/ 
+Redirect 301 /contact/index.php http://www.centered.co.uk/#contact
+Redirect 301 /contact/getting_here.php http://www.centered.co.uk/contact/how-to-get-here/
+Redirect 301 /contact/carpark.html http://www.centered.co.uk/contact/how-to-get-here/
+Redirect 301 /contact/entrance-carpark.html http://www.centered.co.uk/contact/how-to-get-here/
+Redirect 301 /contact/entrance-drive.html http://www.centered.co.uk/contact/how-to-get-here/
+Redirect 301 /contact/entrance-garden.html http://www.centered.co.uk/contact/how-to-get-here/
+Redirect 301 /contact/entrance-steps.html http://www.centered.co.uk/contact/how-to-get-here/
+Redirect 301 /contact/path-to-studio.html http://www.centered.co.uk/contact/how-to-get-here/
 
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
